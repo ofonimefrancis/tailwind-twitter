@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Twitter | Tailwind</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body class="bg-grey-light font-sans">
+    <div class="bg-white">
+        <div class="container mx-auto flex items-center py-4">
+            <nav class="w-2/5">
+                <a href="#" class="text-grey-darker  text-sm mr-4 font-semibold pb-6 border-b-2 border-solid border-transparent hover:text-teal hover:border-teal"><i class="fa fa-home"></i>Home</a>
+                <a href="#" class="text-grey-darker  text-sm mr-4 font-semibold pb-6 border-b-2 border-solid border-transparent hover:text-teal hover:border-teal"><i class="fa fa-bolt"></i>Moments</a>
+                <a href="#" class="text-grey-darker  text-sm mr-4 font-semibold pb-6 border-b-2 border-solid border-transparent hover:text-teal hover:border-teal"><i class="fa fa-bell"></i>Notifications</a>
+                <a href="#" class="text-grey-darker  text-sm mr-4 font-semibold pb-6 border-b-2 border-solid border-transparent hover:text-teal hover:border-teal"><i class="fa fa-envelope"></i>Messages</a>                 
+            </nav>
+            <div class="w-1/5 text-center">
+                <a href="#"><i class="fa fa-twitter fa-lg text-blue"></i></a>
+            </div>
+            <div class="w-2/5 flex justify-end">
+                <div class="mr-4 relative">
+                    <input type="text" class="bg-grey-lighter h-8 px-4 py-2 text-xs w-48 rounded-full" placeholder="Search Twitter">
+                    <span class="flex item-center absolute pin-r pin-y mb-5"><i class="fa fa-search text-grey"></i></span>
+                </div> 
+                <div class="mr-4"><a href="#"><img src="https://avatars0.githubusercontent.com/u/26252218?s=460&v=4" alt="" class="h-8 w-8 rounded-full"></a></div>
+                <div><button class="bg-teal hover:bg-teal-dark text-white font-medium py-2 px-4 rounded-full">Tweet</button></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero h-64 bg-cover" style="height: 28rem;"></div>
+    <div class="bg-white shadow">
+        <div class="container mx-auto flex item-center relative">
+            <div class="w-1/4">
+                <img class="rounded-full h-48 w-48 absolute pin-l pin-t" style="margin-top: -6rem" src="https://pbs.twimg.com/profile_images/901004614845304832/kaCIfSgB_400x400.jpg" />
+                
+            </div> 
+            <div class="w-1/2">
+                <ul class="list-reset flex">
+                    <li class="text-center py-3 px-4 border-b-2 border-solid border-teal">
+                        <a href="" class="text-grey-darker hover:no-underline">
+                            <div class="text-sm font-bold tracking-tight mb-1">Tweets</div>
+                            <div class="text-lg tracking-tight font-bold text-teal">463</div>
+                        </a>
+                    </li>
+                    <li class="text-center py-3 px-4 border-b-2 border-solid hover:border-teal">
+                        <a href="" class="text-grey-darker hover:no-underline">
+                            <div class="text-sm font-bold tracking-tight mb-1">Following</div>
+                            <div class="text-lg tracking-tight font-bold hover:text-teal">143</div>
+                        </a>
+                    </li>
+                    <li class="text-center py-3 px-4 border-b-2 border-solid hover:border-teal">
+                        <a href="" class="text-grey-darker hover:no-underline">
+                            <div class="text-sm font-bold tracking-tight mb-1">Followers</div>
+                            <div class="text-lg tracking-tight font-bold hover:text-teal">82</div>
+                        </a>
+                    </li>
+                    <li class="text-center py-3 px-4 border-b-2 border-solid hover:border-teal">
+                        <a href="" class="text-grey-darker hover:no-underline">
+                            <div class="text-sm font-bold tracking-tight mb-1">Likes</div>
+                            <div class="text-lg tracking-tight font-bold hover:text-teal">889</div>
+                        </a>
+                    </li>
+                </ul>
+            </div> 
+            <div class="w-1/4 flex justify-end">
+                <div class="mr-6">
+                    <button class="bg-teal hover:bg-teal-dark text-white font-medium py-2 px-4 rounded-full">Following</button>
+                </div>
+                <div>
+                    <a href="#" class="text-grey-dark"><i class="fa fa-ellipsis-v"></i></a>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+
+    <div>
+        <div class="container mx-auto flex mt-3 text-sm leading-normal">
+            <div class="w-1/4 pr-6 mt-8 mb-4">
+                <h1><a href="#" class="text-black">Ofonime Francis</a></h1>
+                <div><a href="#" class="text-grey-darker">@opiumated</a></div>
+                <div class="mb-4 mt-3">
+                    Software Developer <a href="https://gloo.ng">@Gloo.ng</a> 🤔<a href="#">#Gopher</a> ofonime.usoro@gloo.ng
+                </div>
+
+                <div class="mb-2">
+                    <i class="fa fa-link text-grey-darker mr-1">
+                        <a href="#">github.com/opiumated</a>
+                    </i>
+                </div>
+
+                <div class="mb-2">
+                    <i class="fa fa-calendar text-grey-darker mr-1">
+                        <a href="#">Joined February 2017</a>
+                    </i>
+                </div>
+
+                <div class="mb-4">
+                    <i class="fa fa-balloon tex-grey-darker mr-1">
+                        <a href="#">Born on April 29, 1992</a>
+                    </i>
+                </div>
+
+                <div class="mb-4">
+                    <button class="bg-teal hover:bg-teal-dark text-white font-medium py-2 px-4 rounded-full w-full h-16">Tweet to Ofonime Francis</button>
+                </div>
+
+
+                <div class="mb-4">
+                    <a href="#">
+                        <img class="rounded-full h-12 w-12" src="https://pbs.twimg.com/profile_images/982812049817460736/NDPDWGRE_bigger.jpg" alt="">
+                    </a>
+
+                    <a href="#">
+                        <img class="rounded-full h-12 w-12" src="https://pbs.twimg.com/profile_images/970762252113666048/xB21X5rh_bigger.jpg" alt="">
+                    </a>
+
+                    <a href="#">
+                        <img class="rounded-full h-12 w-12" src="https://pbs.twimg.com/profile_images/989790935943929856/c1Ph7UIv_bigger.jpg" alt="">
+                    </a>
+
+
+                    <a href="#">
+                        <img class="rounded-full h-12 w-12" src="https://pbs.twimg.com/profile_images/987989561644068865/PxN3BoRF_bigger.jpg" alt="">
+                    </a>
+
+
+                    <a href="#">
+                        <img class="rounded-full h-12 w-12" src="https://pbs.twimg.com/profile_images/985988282633916416/zl-t5705_bigger.jpg" alt="">
+                    </a>
+
+                    <a href="#">
+                        <img class="rounded-full h-12 w-12" src="https://pbs.twimg.com/profile_images/990622472046370817/RqyHYd2U_bigger.jpg" alt="">
+                    </a>
+
+
+                </div>
+            </div> 
+            <div class="w-1/2">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus perferendis, id incidunt maxime velit aliquam possimus nostrum! Porro natus molestias quae est vero, temporibus consequatur! Eaque voluptas assumenda sequi magnam!                   
+            </div>
+            <div class="w-1/4">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. In minus laborum repellat iusto ea temporibus vitae dicta placeat minima delectus! Explicabo veniam in quae veritatis officia, quos eveniet distinctio reprehenderit.
+             
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>     

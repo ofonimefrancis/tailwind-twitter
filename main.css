@@ -1,0 +1,16 @@
+a {
+   text-decoration: none;
+   color: teal;
+}
+
+nav > a:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background:  url('./twitter-bg.jpg')
+}
